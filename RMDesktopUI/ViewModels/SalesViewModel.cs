@@ -12,7 +12,7 @@ namespace RMDesktopUI.ViewModels
     {
         private BindingList<string> _products { get; set; }
         private BindingList<string> _cart;
-        private string _itemQuantity;
+        private int _itemQuantity;
 
         public BindingList<string> Products
         {
@@ -32,7 +32,7 @@ namespace RMDesktopUI.ViewModels
             }
         }
                     
-        public string ItemQuantity
+        public int ItemQuantity
         {
             get { return _itemQuantity; }
             set
